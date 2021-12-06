@@ -11724,6 +11724,11 @@ p {
   border-radius: 100%;
 }
 
+.darken {
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.4);
+  border-color: rgba(0, 0, 0, 1);
+}
+
 #mainNav {
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
@@ -11808,7 +11813,7 @@ p {
 }
 header.masthead {
   padding-top: 10.5rem;
-  padding-bottom: 4rem;
+  padding-bottom: 12rem;
   text-align: center;
   color: white;
   background-image: url("../assets/img/new.png");
